@@ -1,19 +1,20 @@
 import React from "react";
+import "../../styles/Card.css"
 
-export function Card() {
 
+export function Card(props) {
     return (
-        <div className="">
-            <div className="carta">
-                <img src="https://th.bing.com/th/id/OIP.uN-BNWdw2YIyEZsMwzDVWwHaHN?rs=1&pid=ImgDetMain" className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <p className="card-text"> thSome quick example text to build on the card title and make up th Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" className="btn btn-primary">Go somhere</a>
-                    </div>
-            </div>
+        <div className="content text-center">
+            <div className="contenido_card">
+                <img className="img" src={props.img} />
 
+                <div className="card__info">
+                    <h5>{props.title}</h5>
+                    <p>{props.description}</p>
+                    <a href="#" className="btn btn-primary">Find OutMore!</a>
+
+                </div>
+            </div>
         </div>
     );
-
 }
