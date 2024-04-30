@@ -1,4 +1,5 @@
 # Hello World with React boilerplate
+![preview](https://github.com/JhojanBinary/Landig-page-with-React/assets/102551448/7e346037-89c3-49bc-8616-9271acac5f80)
 
 Start coding a react application
 
